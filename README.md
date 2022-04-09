@@ -1,11 +1,12 @@
 # compornent（共通部品）
 
 ## イメージ画像
+
 <img width="410" alt="image" src="https://user-images.githubusercontent.com/99580997/162555278-209ae869-3626-4aa6-a754-1b5d7760596c.png">
 <img width="776" alt="image" src="https://user-images.githubusercontent.com/99580997/162555288-4b0eb6d2-d184-4cf4-91fc-225dbcd04482.png">
 
-
 ## 概要
+
 - `html`
 - `<div class="box__swiper">` ←`swiper`の外側を`box`で囲み、`position: relative;`を設定する。
 - `<!-- Slider main container -->`
@@ -19,17 +20,16 @@
 - `</div>`
 - `</div>`
 - `<!-- If we need pagination -->`
-- `<div class="swiper-pagination"></div>` ←`swiper`のboxから`swiper-pagination`を外に出す。（`box__swiper`のbox内に設置し、`position: absolute;`を設定する。）
+- `<div class="swiper-pagination"></div>` ←`swiper`の box から`swiper-pagination`を外に出す。（`box__swiper`の box 内に設置。`position: absolute;`の設定は不要。元の`swiper-bundle.min.css`で`position: absolute;`が設定されてるので不要。）
 - `</div>`
-- 
+-
 - css
 - `.swiper-pagination {`
 - `position: absolute;`
 - `text-align: center;`
 - `transition: 0.3s opacity;`
-- `transform: translate3d(0, 35px, 0);`　←`translate3d(0, 0, 0)`を`translate3d(0, 35px, 0)`に調整した。
+- `transform: translate3d(0, 35px, 0);`　 ←`translate3d(0, 0, 0)`を`translate3d(0, 35px, 0)`に調整した。
 - `z-index: 10;`
-
 
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
@@ -54,12 +54,10 @@
 - https://validator.w3.org/nu/
 - <img width="744" alt="image" src="https://user-images.githubusercontent.com/99580997/162555300-69cd96a2-19d0-47bb-9aee-ef2fa269024f.png">
 
-
 ## w3c css チェック結果
 
 - https://jigsaw.w3.org/css-validator/
 - <img width="942" alt="image" src="https://user-images.githubusercontent.com/99580997/162555321-bdab6ae1-8606-47ff-aaa9-46ae1871fcc2.png">
-
 
 ## portfolio url:
 
