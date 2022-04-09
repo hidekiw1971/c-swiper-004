@@ -17,16 +17,42 @@
   <meta property="og:site_name" content="" />
   <meta property="og:description" content="" />
   <!-- ファビコン -->
-  <link rel="”icon”" href="" />
+  <link rel="icon" href="images/favicon.ico" />
   <!-- css -->
   <link rel="stylesheet" href="./css/styles.css">
   <!-- JavaScript -->
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script defer src="./js/script.js"></script>
+  <!-- swiper css/js -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
 <body>
   <!-- copy start -->
+  <div class="box">
+    <div class="box__inner">
+      <div class="box__swiper">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="images/mameta1.JPG" alt=""></div>
+            <div class="swiper-slide"><img src="images/mameta2.JPG" alt=""></div>
+            <div class="swiper-slide"><img src="images/mameta3.JPG" alt=""></div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- Slider main container end -->
+      <div class="box__contents">
+        <div class="box__title">タイトルタイトル</div>
+        <div class="box__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+      </div>
+    </div>
+  </div>
   <!-- copy end -->
 </body>
 

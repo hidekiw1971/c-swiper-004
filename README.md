@@ -21,7 +21,7 @@
 ## 使い方
 
 - 「copy start」から「copy end」をコピペ。
-- css: src -> module -> xxx をコピペ。
+- css: src -> module -> box をコピペ。
 
 ## w3c html チェック結果
 
@@ -33,15 +33,16 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0048.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 
-- xxx
+- swiperjs.com
+- https://swiperjs.com/
 
 ## 更新履歴
 
+- 2022/4/9 完成（意図的に配置を右側にしてます。swiper の pagination も swiper 直下で中央寄せできるのを確認。）
 - 2022/4/9 swiper(dl、pagination を外側に設置が上手く行って無かったので再作成（指定の幅で中央に寄らなかったので調整）)
 
 ## 環境・使い方

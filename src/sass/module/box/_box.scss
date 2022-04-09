@@ -1,0 +1,14 @@
+@use "global" as *;
+.box {
+  // size
+  max-width: rem(375);
+  width: 100%;
+  // ajustment
+  // margin: 0 auto;
+  margin-left: auto;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

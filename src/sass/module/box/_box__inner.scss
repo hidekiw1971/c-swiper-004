@@ -1,0 +1,8 @@
+@use "global" as *;
+.box__inner {
+  width: 100%;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
